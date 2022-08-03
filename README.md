@@ -1,2 +1,2 @@
 # MARS-MIPS
-Estudo de Assembly MIPS no simulador MARS.
+Estudo de instruções em Assembly MIPS.
