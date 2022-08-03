@@ -1,2 +1,3 @@
 # MARS-MIPS
-Estudo de instruções em Assembly MIPS.
+Estudo de programação em Assembly MIPS.
+- IDE: MARs
