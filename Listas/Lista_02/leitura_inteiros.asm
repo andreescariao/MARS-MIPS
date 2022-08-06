@@ -1,15 +1,18 @@
 # LEITURA DE INTEIROS
 
 .data
-	saudaÁ„o: .asciiz "ForneÁa sua idade: "
-	saida: .asciiz "Sua idade È: "
+	sauda√ß√£o: .asciiz "Forne√ßa sua idade: "
+	saida: .asciiz "Sua idade √©: "
 
-.text # ¡rea para instruÁıes do programa
+.text # √Årea para instru√ß√µes do programa
 	li $v0, 4 # imprime uma string
 	la $a0, saudacao
 	syscall
 	
-	move $t0, $v0 # valor fornecido est· em $t0
+	li $v0, 5 # leitura de inteiros
+	syscall
+	
+	move $t0, $v0 # valor fornecido est√° em $t0
 
 	li $v0, 4 # imprime uma string
 	la $a0, saida
@@ -17,7 +20,6 @@
 	
 	li $v0, 1
 	move $a0, $t0
-	
 	syscall
 	
 	li $v0, 10 # Encerrar o programa
