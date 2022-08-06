@@ -1,7 +1,7 @@
 # LEITURA DE INTEIROS
 
 .data
-	saudação: .asciiz "Forneça sua idade: "
+	saudacao: .asciiz "Forneça sua idade: "
 	saida: .asciiz "Sua idade é: "
 
 .text # Área para instruções do programa
